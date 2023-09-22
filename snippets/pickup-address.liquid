@@ -101,7 +101,7 @@
       let province = $("#province").val();
       url = `https://tools.gabcgfs.com/address_finder_dev.php?PROVINCE=${province}`;
       City = [];
-      City.push('<option value="" Selected>Select Town / City</option>');
+      City.push('<option value="" Selected>City</option>');
       jQuery.ajax({url: url, type: "GET", dataType: "jsonp", contentType: "application/json; charset=UTF-8"}).done(function(json) {
         if (json != "") {
           for (let i = 0; i < json[0].CITY.length; i++) {
