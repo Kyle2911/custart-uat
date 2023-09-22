@@ -78,7 +78,7 @@
     } else {
       url = "https://tools.gabcgfs.com/address_finder_dev.php";
       province = [];
-      province.push('<option value="" Selected>Select Province Address</option>');
+      province.push('<option value="" Selected>Province</option>');
       jQuery.ajax({url: url, type: "GET", dataType: "jsonp", contentType: "application/json; charset=UTF-8"}).done(function(json) {
         for (let i = 0; i < json.length; i++) {
           const arrP = `<option value="${
@@ -97,7 +97,7 @@
 
     GetProvince.addEventListener("change",function getProvince() {
       $("#zip").val("");
-      $("#barangay").html('<option value="" Selected>Select Barangay</option>');
+      $("#barangay").html('<option value="" Selected>Barangay</option>');
       let province = $("#province").val();
       url = `https://tools.gabcgfs.com/address_finder_dev.php?PROVINCE=${province}`;
       City = [];
