@@ -177,7 +177,7 @@
 
     const value = findValueForLocation(barangay);
     $("#zip").val(value);
-     
+      const customer_address = JSON.parse(localStorage.getItem("customer_address"));
      getBarangay(customer_address.barangay);
 
       function getBarangay(barangay) {
