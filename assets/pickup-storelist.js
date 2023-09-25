@@ -121,7 +121,6 @@
             </div>
             </div>
             <div class="radio__label__accessory" style="width: 100%; text-align: end;">
-            <div class="content-box__emphasis">Free</div>
             <span style="font-size: small; width: 10%">${listStore_getkm} Km</span>
             </div></label
             ></div>
