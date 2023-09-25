@@ -313,7 +313,7 @@ window.onclick = function(event) {
         const getZip = findValueForLocation(barangay);
         const getlat = findValueForlat(barangay);
         const getlong = findValueForlong(barangay);
-        getListStore(getlat, getlong);
+        getListStore_product(getlat, getlong);
       }
 
     });
@@ -321,7 +321,7 @@ window.onclick = function(event) {
   }
 
 
-  function getListStore(lat, long) {
+  function getListStore_product(lat, long) {
 
     html_loading = `<div style="display: flex; justify-content: center;"><span class="loader">Loading</span></div>`;
     document.querySelector(".nearBy").innerHTML = html_loading;
