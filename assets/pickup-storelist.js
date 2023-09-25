@@ -156,7 +156,7 @@
 // Now you can use sortedLocationElements to update your HTML container
       if (sortedLocationElements.join("") == "") {
         document.querySelector(".listStore").innerHTML = `<div style="display: flex; justify-content: center;"><h2 style="
-            padding: 0 12px;
+            padding: 0 12px 0 58px;
             font-weight: 400;
             width: 100%;
             text-align: -webkit-center;
