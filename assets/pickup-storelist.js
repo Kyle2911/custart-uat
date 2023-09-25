@@ -115,7 +115,7 @@
             <label class="radio__label" for="checkout_delivery_option_id_${i}" style="display: flex; margin: 10px;"
             ><div class="radio__label__primary" style="width: 80%;">
             <div><b>${Title}</b></div>
-            <div class="small-text" style="font-size: small; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">${listaddress_storedata}</div>
+            <div class="small-text" style=" white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">${listaddress_storedata}</div>
             <div>
             Open ·  Closes 10 PM
             <br>
@@ -123,7 +123,7 @@
             </div>
             </div>
             <div class="radio__label__accessory" style="width: 20%; text-align: end;">
-            <span style="font-size: small; width: 10%"><b>${listStore_getkm} Km</b></span>
+            <span style="width: 10%"><b>${listStore_getkm} Km</b></span>
             </div></label
             ></div>
                 `;
