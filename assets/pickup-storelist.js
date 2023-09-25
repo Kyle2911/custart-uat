@@ -159,7 +159,7 @@
             text-align: -webkit-center;
             ">There is no store near you</h1></div>`;
       } else {
-        document.querySelector("#resultList").innerHTML=`
+        document.querySelector(".resultList").innerHTML=`
         <div style="border: 1px solid #000;">
   <label style="display: flex; justify-content: center; border-bottom:1px solid #000;  padding: 8px; font-size: 19px; font-weight: 400;">STORE LOCATOR</label>
   <div class="listStore" style="display: grid; overflow:scroll; max-height:300px; overflow-x:hidden; margin-top:10px; padding-right:15px;"></div>
