@@ -117,7 +117,7 @@
             <div>${Title}</div>
             <div class="small-text" style="font-size: small; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">${listaddress_storedata}</div>
             <small>
-            Usually ready in 24 hours
+            Open Closes 10 PM
             </small>
             </div>
             <div class="radio__label__accessory" style="width: 100%; text-align: end;">
