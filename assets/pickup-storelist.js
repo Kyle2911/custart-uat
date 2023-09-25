@@ -157,7 +157,7 @@
             text-align: -webkit-center;
             ">There is no store near you</h1></div>`;
       } else {
-        document.querySelector(".resultList").style.display='none';
+        document.querySelector('.resultList').style.display="none";
         
         document.querySelector(".listStore").innerHTML = sortedLocationElements.join('');
       }
