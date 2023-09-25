@@ -185,7 +185,8 @@
     }else{
         customer_address= `{"province":"${$('#province').val()}","city":"${$('#city').val()}","barangay":"${$('#barangay').val()}","zip":"${$('#zip').val()}","street_address":"${$('#street_address').val()}"}`;
          localStorage.setItem('customer_address',customer_address);
-      $('#replace_img').html("");
+      const getcheck= {% render 'check-submit' %}
+      $('#replace_img').html(getcheck);
     // setInterval(()=>{window.location.reload()}, 1000);
 
     }
