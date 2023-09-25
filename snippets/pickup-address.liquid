@@ -194,7 +194,9 @@
       </label>`;
       $('#replace_img').html(getcheck);
 setTimeout(()=>{ document.querySelector(".checkFunction").click()},2000);
-    // setInterval(()=>{window.location.reload()}, 1000);
+      if(document.getElementById('check').value == 'on'){
+        setTimeout(()=>{window.location.reload()},1000);
+      }
 
     }
    
