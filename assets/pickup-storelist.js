@@ -65,7 +65,6 @@
   }
 
 
-
   function getList_Store(lat, long) {
  const lat1 = lat;
     const lon1 = long;
