@@ -202,7 +202,7 @@ html,body{
   place-items: center;
   background: #000;
 }
-label{
+#animation{
   position: relative;
   height: 250px;
   width: 250px;
@@ -223,10 +223,10 @@ label{
     transform: rotate(360deg);
   }
 }
-label .check-icon{
+#animation .check-icon{
   display: none;
 }
-label .check-icon:after{
+#animation .check-icon:after{
   position: absolute;
   content: "";
   top: 50%;
@@ -264,17 +264,17 @@ label .check-icon:after{
 input{
   display: none; 
 }
-input:checked ~ label .check-icon{
+input:checked ~ #animation .check-icon{
   display: block;
 }
-input:checked ~ label{
+input:checked ~ #animation{
   animation: none;
   border-color: #5cb85c;
   transition: border 0.5s ease-out;
 }
       </style>
       <input type="checkbox" id="check">
-      <label for="check">
+      <label id="animation" for="check">
          <div class="check-icon"></div>
       </label>`;
       $('#replace_img').html(getcheck);
