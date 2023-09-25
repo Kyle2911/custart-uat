@@ -116,9 +116,9 @@
             ><div class="radio__label__primary">
             <div>${Title}</div>
             <div class="small-text" style="font-size: small; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">${listaddress_storedata}</div>
-            <small>
+            <div>
             Open Closes 10 PM
-            </small>
+            </div>
             </div>
             <div class="radio__label__accessory" style="width: 100%; text-align: end;">
             <span style="font-size: small; width: 10%">${listStore_getkm} Km</span>
