@@ -123,7 +123,7 @@
             </div>
             </div>
             <div class="radio__label__accessory" style="width: 20%; text-align: end;">
-            <span style="font-size: small; width: 10%">${listStore_getkm} Km</span>
+            <span style="font-size: small; width: 10%"><b>${listStore_getkm} Km</b></span>
             </div></label
             ></div>
                 `;
