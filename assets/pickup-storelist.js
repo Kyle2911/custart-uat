@@ -1,7 +1,12 @@
   ZipBarangay = [];
   const customer_address_store = JSON.parse(localStorage.getItem("customer_address"));
-
-  getCitystore(customer_address_store.city);
+  if(customer_address_store != null){
+     getCitystore(customer_address_store.city);
+  }else{
+    
+        document.querySelector('.resultList').style.display="none";
+  }
+ 
 
 
   function getCitystore(city) {
@@ -157,7 +162,6 @@
             text-align: -webkit-center;
             ">There is no store near you</h1></div>`;
       } else {
-        document.querySelector('.resultList').style.display="none";
         
         document.querySelector(".listStore").innerHTML = sortedLocationElements.join('');
       }
