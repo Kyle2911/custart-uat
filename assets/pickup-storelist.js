@@ -123,7 +123,7 @@
             In-store · shopping In-store pickup
             </div>
             </div>
-            <div class="radio__label__accessory" style="width: 100%; text-align: end;">
+            <div class="radio__label__accessory" style="width: 20%; text-align: end;">
             <span style="font-size: small; width: 10%">${listStore_getkm} Km</span>
             </div></label
             ></div>
