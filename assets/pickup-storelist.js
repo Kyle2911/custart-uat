@@ -112,7 +112,7 @@
           if (listStore_getkm <= 10) {
    
             html = `<div>
-            <label class="radio__label" for="checkout_delivery_option_id_${i}" style="display: flex; border-bottom: 1px solid; margin-bottom: 10px;"
+            <label class="radio__label" for="checkout_delivery_option_id_${i}" style="display: flex; margin-bottom: 10px;"
             ><div class="radio__label__primary">
             <div>${Title}</div>
             <div class="small-text" style="font-size: small; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">${listaddress_storedata}</div>
