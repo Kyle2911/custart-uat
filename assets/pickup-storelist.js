@@ -118,8 +118,7 @@
             <div class="small-text" style="font-size: small; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">${listaddress_storedata}</div>
             <div>
             Open ·  Closes 10 PM
-            </div>
-              <div>
+            <br>
             In-store · shopping In-store pickup
             </div>
             </div>
