@@ -25,7 +25,17 @@
   border-left-color: #5cb85c;
   animation: rotate 1.2s linear infinite;
 }
-
+@keyframes rotate {
+  50%{
+    border-left-color: #5cb85c;
+  }
+  75%{
+    border-left-color: #5cb85c;
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
 #animation .check-icon{
   display: none;
 }
