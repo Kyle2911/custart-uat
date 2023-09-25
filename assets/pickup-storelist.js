@@ -113,7 +113,7 @@
    
             html = `<div>
             <label class="radio__label" for="checkout_delivery_option_id_${i}" style="display: flex; margin-bottom: 10px;"
-            ><div class="radio__label__primary">
+            ><div class="radio__label__primary" style="width: 80%;">
             <div>${Title}</div>
             <div class="small-text" style="font-size: small; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">${listaddress_storedata}</div>
             <div>
