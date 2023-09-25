@@ -4,7 +4,7 @@
      getCitystore(customer_address_store.city);
   }else{
     
-        document.querySelector('.resultList').style.display="none";
+        window.document.querySelector('.resultList').style.display="none";
   }
  
 
@@ -155,12 +155,12 @@
 
 // Now you can use sortedLocationElements to update your HTML container
       if (sortedLocationElements.join("") == "") {
-        document.querySelector(".listStore").innerHTML = `<div style="display: flex; justify-content: center;"><h1 style="
+        document.querySelector(".listStore").innerHTML = `<div style="display: flex; justify-content: center;"><h2 style="
             padding: 0 12px;
             font-weight: 400;
             width: 100%;
             text-align: -webkit-center;
-            ">There is no store near you</h1></div>`;
+            ">There is no store near you</h2></div>`;
       } else {
         
         document.querySelector(".listStore").innerHTML = sortedLocationElements.join('');
