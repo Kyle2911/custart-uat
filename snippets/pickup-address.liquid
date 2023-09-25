@@ -193,10 +193,13 @@
          <div class="check-icon"></div>
       </label>`;
       $('#replace_img').html(getcheck);
-setTimeout(()=>{ document.querySelector(".checkFunction").click()},2000);
-      if(document.getElementById('check').value == 'on'){
+setTimeout(()=>{ 
+  document.querySelector(".checkFunction").click()
+                     if(document.getElementById('check').value == 'on'){
         setTimeout(()=>{window.location.reload()},1000);
       }
+               },2000);
+
 
     }
    
