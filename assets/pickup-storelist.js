@@ -165,7 +165,7 @@
   <div class="listStore" style="display: grid; overflow:scroll; max-height:300px; overflow-x:hidden; margin-top:10px; padding-right:15px;"></div>
   </div>`;
         
-        document.querySelector(".listStore").innerHTML = sortedLocationElements.join('');
+      
       }
     }
   }
